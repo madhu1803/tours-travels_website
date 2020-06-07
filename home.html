@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+</head>
+
+<body style="background-color: aqua;">
+    <div class="multiple-items" style="margin: 50px;">
+        <div><img src="assets/images/addidas.jpeg" height="100"></div>
+        <div><img src="assets/images/pepsi.jpeg"></div>
+        <div><img src="assets/images/hbo.jpeg"></div>
+        <div><img src="assets/images/harley-davidson.jpeg"></div>
+        <div><img src="assets/images/harvard.jpeg"></div>
+        <div><img src="assets/images/twitter.jpeg"></div>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.multiple-items').slick(
+                {
+                    infinite: true,
+                    slidesToShow: 2,
+                    slidesToScroll: 4,
+                    autoplay: true,
+                    autoplaySpeed: 3000
+                }
+            );
+        });
+    </script>
+</body>
+
+</html>

@@ -1,3 +1,9 @@
 $(document).ready(function () {
-    $('.single-item').slick();
+  $(".multiple-items").slick({
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 4,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  });
 });

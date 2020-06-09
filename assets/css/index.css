@@ -11,6 +11,20 @@ body {
   height: 100%;
 }
 
+.row {
+  height: 100%;
+}
+
+.main-container .section-container {
+  height: 100vh;
+}
+
+.main-container .section-container .sub-section-container {
+  padding: 40px;
+}
+
+
+/* header container  */
 .header-container {
   height: 100vh
 }
